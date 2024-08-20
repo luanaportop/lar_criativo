@@ -99,14 +99,18 @@ input, textarea{
 
 #botao{
     margin-top: 20px;
-    width: 85px;
+    width: 500px;
+    height: 40px;
     border-radius: 8px;
-    color: rgb(94, 92, 9);
+    color: rgb(255, 255, 255);
+    background-color: rgb(190, 178, 5);
+    align-self: center;
 }
 
 #botao:hover{
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(141, 116, 4);
     letter-spacing: 1px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
