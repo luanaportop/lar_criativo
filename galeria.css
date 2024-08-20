@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: rgb(63, 63, 63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 7%;
+    box-shadow: 5px 5px 10px rgba(219, 219, 219, 0.329);
+    background-color: rgba(15, 15, 15, 0.582);
+    border-radius: 2px;
+    
+}
+
+.logo{
+    font-size: 27px;
+    color: rgb(191, 209, 23);
+    font-style: italic;
+    
+}
+
+
+.links ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 32px;
+}
+
+.links a{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.774);
+    text-decoration: none;    
+    transition: 0.5s;
+    
+}
+
+.links a:hover{
+    color: rgb(236, 255, 60);
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+    
+}
+
+#galeria-1{
+    margin-top: 40px;
+    display: flex;
+    width: 95%;
+    height: auto;
+    gap: 16px;
+}
+
+.fotos{
+  
+   width: 450px;
+   height: 400px;
+   border-radius: 2px;
+}
+
+.fotos:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+#sala-verde{
+    background-image: url(./img/sala-verde.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#sala-poltrona{
+    background-image: url(./img/sala-poltrona-laranja.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#sala-guitarra{
+    background-image: url(./img/sala-guitarra.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#sala-cinza{
+    background-image: url(./img/sala-cinza.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#galeria-2{
+    margin-top: 20px;
+    display: flex;
+    width: 95%;
+    height: auto;
+    gap: 16px;
+}
+
+#sala-bw{
+    background-image: url(./img/sala-BW.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#quarto-classico{
+    background-image: url(./img/quarto-classico.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#cozinha-marmore{
+    background-image: url(./img/cozinha-marmore.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#cozinha-branca{
+    background-image: url(./img/cozinha-branca.jpg);
+    background-position: center;
+    background-size: cover;
+}
